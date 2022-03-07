@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--Navbar start-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+
+            <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#accueil">Startseite</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">Über mich</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!--Navbar end-->
+
+    <!--Start Accueil -->
+    <div class="text-white bg-dark text-center d-flex flex-column align-items-center w-100 h-75 p-4 mx-auto bg-info mb-2" id="accueil">
+
+
+        <div class="txtAccueil mt-auto bg-white text-dark rounded">
+            <img src="assets/images/profil.jpg" class="imgProfileAcc rounded-circle mt-5 border-dark shadow-lg" alt="profile">
+            <h1>Hallo, ich bin Stephane</h1>
+            <div class="container text-dark">
+                <p class="lead p-3 ">Ich bin Junior Fullstack-Entwickler, spezialisiert auf verschiedene Frameworks und Programmiersprachen, wie Java IDE, Java EE, Spring Spoot, JavaScript, Html, CSS, TypeScript mit dem Angular Framework, PHP & MSQL, C# und Asp Net-core .
+                </p>
+            </div>
+            <p class="lead">
+                <a href="#about" class="btn btn-lg btn-secondary">Mehr wissen</a>
+            </p>
+        </div>
+    </div>
+    <!--End Accueil -->
+
+    <div class="py-5" id="portfolio">
+
+        <h2 class="text-center mb-5 text-uppercase text-break">Portfolio</h2>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-lg">
+                        <img class="card-img-top" class="h-25" src="assets/images/Apps.png" alt="Card image">
+                        <div class="card-body">
+                            <h4>Mensch-Computer-Interaction Projekt</h4>
+                            <p class="card-text">Im Rahmen des Semesterprojekts habe ich eine Web- und Mobile-Anwendung mithilfe des Angular-Frameworks entwickelt. mehr über das Projekt erfahren?
+                            </p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--<a class="text-dark" target="_blank" href="#">-->
+
+                                    <a class="text-dark" target="_blank" href="https://github.com/bameur9/Studies-App">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                         Quellcode
+                                    </button>
+                                    </a>
+                                    </a>
+                                    <a class="text-dark ml-2" href="projekte/project_mci.html">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Projektansicht
+                          </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section à propos -->
+    <section class="bg-dark text-white mb-0" id="about">
+
+        <div class="container py-5">
+
+            <!-- About Section Heading -->
+            <h2 class="text-center text-uppercase text-white pb-3">Über mich</h2>
+
+            <!-- About Section Content -->
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nostrum non at veritatis deleniti! Quisquam libero voluptates optio quas minima, dignissimos temporibus nam. Harum id, aliquam facere dolorem assumenda corporis!.</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt itaque ex cumque fugiat perspiciatis nam ipsa necessitatibus quasi ullam delectus consequuntur ipsum ab, neque autem provident hic, corrupti unde impedit!</p>
+                </div>
+            </div>
+
+            <!-- About Section Button -->
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="#contact">
+          Kontaktieren Sie mich
+        </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--  Contact Form  -->
+
+    <section class="bg-dark text-white mb-0" id="contact">
+
+        <div class="container">
+            <h2 class="titreContact text-center">Mich anschreiben!</h2>
+            <div class="row">
+                <div class="col-10 mx-auto">
+
+                    <form id="contact-form" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Vorname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Nachname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Nachricht *</label>
+                                        <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-5">
+                                    <input type="submit" class="btn btn-success btn-send" value="Senden">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+
+    </div>
+
+
+
+
+
+
+    <!--Main JavaScript-->
+    <script src="assets/javaScript/main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

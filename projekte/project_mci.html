@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudiesApp</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid mt-4 start">
+        <header>
+            <img src="assets/images/header.png" class="img-fluid image-content" alt="Responsive image">
+        </header>
+    </div>
+
+    <div class="container-fluid  content text-dark">
+        <div class="first container p-3 mysection">
+            <h1 class="einleitung text-center">Einleitung</h1>
+            <section class="fw-light container">
+                <p>
+                    Zu Beginn des Semesters fällt es vielen Studierenden schwer den Überblick über Ihren Vorlesungsplan zu behalten und die Materialien zur Vorlesung ordentlich in den Computer oder das Handy einzuordnen.
+                    <br> Das Ziel dieses Projekts ist die Entwicklung einer Web- und Mobilanwendung, die Lösungen für Studierende bieten kann.
+                </p>
+            </section>
+        </div>
+
+        <div class="first  p-3 mysection">
+            <h1 class="service text-center">Präsentation der Anwendung</h1>
+            <section class="fw-light justify-content-center d-flex">
+                <img src="assets/images/ansicht.png" class="img-fluid" alt="Responsive image">
+                <div class="clearfix"></div>
+            </section>
+
+            <section class="fw-light container">
+                <h3 class="text-center">Nutzergruppe</h3>
+                <p>
+                    <b>StudiesApp</b> wurde in erster Linie für Studierende entwickelt, kann aber auch von Schüler-innen verwendet werden. Sie hat die Besonderheit, dass sie sechs Services bietet, die für Studierende sehr nützlich sind.
+                </p>
+
+            </section>
+            <section class="fw-light container">
+                <h3 class="text-center">Services</h3>
+                <p>
+                    Mit <b>StudiesApp</b> können Sie:
+                </p>
+                <ul>
+                    <li class="li1">
+                        <p>
+                            Ihre wöchentlichen Vorlesungen planen, indem Sie den Namen der Vorlesung, den Ort (Online oder im Präsenz) und Kommentare wie Klausur- oder Abgabetermin eintragen.
+                        </p>
+                    </li>
+                    <li class="li2">
+                        <p>
+                            Für jeden Ihrer Vorlesungen einen Ordner erstellen, in den Sie Materialien der entsprechenden Vorlesung hoch- und herunterladen können.
+                        </p>
+                    </li>
+                    <li class="li3">
+                        <p>
+                            Einen Überblick über Ihre Studienleistungen (Credit-Points), indem Sie Ihre Module und die erreichten Noten in eine Tabelle eintragen.
+                        </p>
+                    </li>
+                    <li class="li4">
+                        <p>
+                            Ihre To-do-Listen erstellen und die Ausführungsprioritäten hinzufügen.
+                        </p>
+                    </li>
+                    <li class="li5">
+                        <p>
+                            Ihre Termine hinzufügen.
+                        </p>
+                    </li>
+                    <li class="li6">
+                        <p>
+                            Ein neues Projekt hinzufügen,in dem Sie Ihre Aufgaben definieren und den Fortschritt Ihrer Arbeit verfolgen. Sie haben auch die Möglichkeit, Mitglieder zu Ihren Projekten und deren Aufgaben hinzuzufügen.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="fw-light container">
+                <h3 class="text-center">Umsetzung</h3>
+
+                <p>
+                    <img class="rounded align-baseline float-left" src="assets/images/angular-icon-1.svg" alt="framework logo" width="80" height="80">
+                    <img class="rounded float-left align-baseline" src="assets/images/bootstrap-5-1.svg" alt="framework logo" width="80" height="80">
+                    <img class="rounded float-left align-baseline" src="assets/images/spring-3.svg" alt="framework logo" width="80" height="80">
+
+                    <b>StudiesApp</b> wurde hauptsächlich mit Angular und Bootstrap Frameworks entwickelt und serverseitig mit Java Spring, das lediglich dazu diente ein API-REST Service zum Hoch- und Herunterladen von Dateien auf dem Computer oder dem
+                    Telefon zu erstellen. Die Benutzerdaten werden vorübergehend in sogenannten <em>Mock-Data </em>gespeichert, da dieses Projekt nur dem Zweck dient die Mensch-Maschine-Interaktivität zu betonen.
+                </p>
+                <p>
+                    Die Implementierung des Projekts ist nicht vollständig, da die Termin- und Projektfunktionen noch fehlen.
+                </p>
+
+            </section>
+        </div>
+
+        <div class="second container p-3 mysection">
+            <h1 class="einleitung text-center">Interaktiver Prototyp</h1>
+            <section class="fw-light">
+                <h3 class="text-center">Fokus</h3>
+                <p>
+                    Zur Durchführung des Nutzertests wurde der Fokus auf drei Funktionalitäten gelegt. Der Vorlesungsplan, das Material zur Vorlesung und die To-do-Liste.
+                </p>
+            </section>
+            <section class="fw-light h-100">
+
+
+                <div class="diagram">
+                    <h3 class="text-center">Skizze der zentralen Interaktion</h3>
+                    <p>
+                        Das erhaltene Ergebnis im Diagramm dargestellt:
+                    </p>
+                    <div class="bild-box">
+                        <img src="assets/images/skizze.jpeg" class="w-50 d-flex p-2" alt="skizze">
+                        <img src="assets/images/diagram1.png" class="img-fluid w-50  p-2" alt="Responsive image">
+                        <p>
+                            Zunächst wurde eine Skizze angefertigt, um die Meinungen potenzieller Nutzer über das Design und die für die Anwendung gewählten Funktionen einzuholen. Anhand einer Umfrage konnten sich die Nutzer dazu äußern, welche Funktionen der App sie gerne mit dabei
+                            haben würden.<br> Die Umfrage wurde per E-Mail an Studierende der Hochschule Bremen verschickt und rund 20 Studierende haben an der Umfrage teilgenommen. So wurde der Fokus auf die drei Funktionen
+                            mit den meisten positiven Rückmeldung gelegt.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+            </section>
+
+            <section class="fw-light">
+                <h3 class="text-center">Beschreibung der Prototypen</h3>
+                <h4>Prototyp 1</h4>
+                <p>
+                    Der Nutzer öffnet die StudiesApp und möchte seine Lehrveranstaltungen in den Kalender eintragen. Dazu muss er auf die Schaltfläche „<em>Vorlesungsplan</em>“ klicken. Darin befindet sich ein Kalender, welchen der Nutzer mit Inhalt füllen
+                    kann. Um diesen zu füllen, muss der Nutzer auf das Feld klicken, das dem Tag und der Uhrzeit des Vorlesungsbeginns entspricht. Es erscheint ein Fenster, in dem er die Möglichkeit hat, die entsprechenden Daten einzugeben und schließlich
+                    zu speichern. Außerdem gibt es in jedem Prototypen die Funktionen Löschen und Bearbeiten von Daten.
+                </p>
+                <img src="assets/images/prototype1.png" class="img-fluid p-2" alt="Responsive image">
+                <div class="clearfix"></div>
+            </section>
+
+
+            <section class="fw-light">
+                <h4>Prototyp 2</h4>
+                <p>
+                    Nachdem der Nutzer eine Vorlesung im Planer (Prototyp 1) eingetragen hat, wird diese automatisch auf den Prototyp 2 übertragen, sodass der Nutzer die Vorlesungsmaterialien zu jederzeit hoch- und herunterladen kann. Außerdem hat er die Möglichkeit, einen
+                    Kurs direkt im Fenster „Material zur Vorlesung“ hinzuzufügen. Dies ist für Studierende gedacht, die z.B. ein Modul wiederholen und nicht an der Vorlesung teilnehmen müssen.
+                </p>
+                <img src="assets/images/prototype2.png" class="img-fluid p-2" alt="Responsive image">
+                <div class="clearfix"></div>
+            </section>
+            <section class="fw-light">
+                <h4>Prototyp 3</h4>
+                <p>
+                    Prototyp 3 ist der von allen Befragten am meisten geschätzte Prototyp. Wenn der Benutzer auf die Schaltfläche „To-do-Liste“ klickt, hat er die Möglichkeit einen Titel oder den Namen der Liste hinzuzufügen. Wenn der Nutzer auf die erstellte To-do-Liste
+                    klickt, wird eine neue Seite angezeigt. Dort können Aufgaben mit einer Prioritätsstufe hinzugefügt werden. Hat der Nutzer die Aufgabe erledigt, hat er die Möglichkeit die Aufgabe durchzustreichen.
+                    <br> Ganz wichtig ist es hier zu wissen, dass eine bereits erledigte Aufgabe nicht mehr als Aufgabe gezählt wird.
+                </p>
+                <img src="assets/images/prototype3.png" class="img-fluid p-2" alt="Responsive image">
+                <div class="clearfix"></div>
+            </section>
+            <section class="fw-light">
+                <h3 class="text-center">Interaktions-Aufgaben</h3>
+                <p>
+                    Um einen Nutzertest durchzuführen, musste jeder Proband eine bestimmte Aufgabe ausführen, wie zum Beispiel:
+                </p>
+                <p>
+                    Prototype 1:
+                </p>
+                <ul>
+                    <li class="li1">
+                        <p>
+                            Tragen Sie den folgenden Satz in den Vorlesungsplan ein: <br><em>„jeden Donnerstag von 9:45 bis 11:15 Uhr habe ich MCI. Die Vorlesung findet online statt und die Abgabe des Semesterprojekts ist der 27.02.2022“</em>.
+                        </p>
+                    </li>
+                </ul>
+                <p>
+                    Prototype 2:
+                </p>
+                <ul>
+                    <li class="li2">
+                        <p>
+                            Fügen Sie eine Vorlesung hinzu. Laden Sie die dazu gehörigen Materialien hoch, bearbeitenund löschen Sie diese anschließend.
+                        </p>
+                    </li>
+                    <li class="li2">
+                        <p>
+                            Fügen Sie eine neue Veranstaltung hinzu. Laden Sie eine Datei unabhängig von Format und Größe hoch und laden Sie schließlich dieselbe Datei herunter.
+                        </p>
+                    </li>
+
+                </ul>
+                <p>
+                    Prototype 3:
+                </p>
+                <ul>
+                    <li class="li4">
+                        <p>
+                            Fügen Sie mehrere Titel in die To-do-Liste ein und testen Sie das Suchfeld.
+                        </p>
+                    </li>
+                    <li class="li4">
+                        <p>
+                            Fügen Sie eine oder mehrere Aufgaben zu einer Liste hinzu und zeigen Sie dann an, dass Sie eine bestimmte Aufgabe abgeschlossen haben.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="fw-light">
+                <h3 class="text-center">Evaluation</h3>
+                <p>
+                    Es waren etwa 20 Studierende, die am Nutzertest teilgenommen haben. Die Testergebnisse lauten wie folgt:
+                </p>
+                <h4>Prototyp 1</h4>
+                <div class="diagram">
+                    <img src="assets/images/diagramm2.png" class="float-left w-50 p-2" alt="Responsive image">
+                    <img src="assets/images/hilfeFunktion.png" class="float-left hilfe-funktion p-2" alt="Responsive image">
+                    <p> Von den 20 Probanden, die den Prototyp 1 getestet haben:<br> - 12 Probanden haben <b>keine Schwierigkeiten gefunden</b> und konnten den Test schnell durchführen. <br>- 4 Probanden <b>hatten Schwierigkeiten</b> aber mit der Zeit gelang
+                        es ihnen, den Test gut auszuführen.
+                        <br>- 3 Probanden haben es <b>nicht geschafft</b> den Test auszuführen.<br> Es lag daran, dass viele nicht wussten, wie man eine Vorlesung angibt, damit die sich wöchentlich wiederholt. Um dieses Problem zu lösen, wurde eine Hilfefunktion
+                        eingebaut.
+                    </p>
+
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="diagram">
+                    <h4>Prototyp 2</h4>
+                    <img src="assets/images/diagram3.png" class="float-left w-50 p-2" alt="Responsive image">
+                    <img src="assets/images/deleteFunktion.png" class="float-left hilfe-funktion p-2" alt="Responsive image">
+
+                    <p>
+                        Testszenario 1: „Fügen Sie eine neue Veranstaltung hinzu. Laden Sie eine Datei unabhängig von Format und Größe hoch und laden Sie schließlich dieselbe Datei herunter“.
+                        <br> Dieser Test wurde einstimmig gut durchgeführt. Der Download war jedoch schnell und sie konnten problemlos von 10 bis 25 PDF- und Zip-Dateien hoch- und herunterladen.
+                    </p>
+                    <p>
+                        Testszenario 2: „Fügen Sie mehrere Vorlesungen hinzu, laden Sie die Materialien hoch, bearbeiten und löschen Sie sie dann“.
+                        <br> Auch im Testszenario 2 hatten die Probanden kaum Schwierigkeiten gefunden, eine Vorlesung und ihre Materialien hinzuzufügen, zu bearbeiten oder zu entfernen. Stattdessen gaben sie zwei Verbesserungsvorschläge an.
+                        <br> <b>*</b>Wenn ein Nutzer eine Vorlesung entfernen möchte, sollte er aufgefordert werden, seine Aktion zu bestätigen. Dann stellen Sie sich vor, der Nutzer erstellt eine neue Veranstaltung und gibt 20 Materialien ein. Anschließend
+                        löscht er diese aus Versehen, weshalb die dazugehörigen Materialien auch gelöscht werden. Dadurch muss der Nutzer den Vorgang von Anfang an erneut starten.
+                        <br> Ein weiterer Vorschlag bezog sich auf die verwendete Sprache, denn viele Probanden haben festgestellt, dass auf einer Seite deutsch und englisch zusammen verwendet wurde.
+
+                    </p>
+
+                </div>
+                <div class="diagram">
+                    <h4>Prototyp 3</h4>
+                    <img src="assets/images/diagram4.png" class="float-left w-50 p-2" alt="Responsive image">
+                    <p>
+                        Testszenario 1: „Fügen Sie mehrere Titel in die To-Do-Liste ein und testen Sie das Suchfeld“.<br> In diesem Testszenario werden Nutzerbewertungen gleichmäßig verteil. Diejenigen, die Schwierigkeiten mit der Suchfunktion hatten,
+                        hatten die Erwartung, dass das Suchfeld auch rekursiv sucht. Das heißt, wenn ein Buchstabe entfernt wird, werden keinen entsprechenden Vorschläge mehr angezeigt.
+                    </p>
+
+                </div>
+
+                <div class="clearfix"></div>
+            </section>
+        </div>
+
+    </div>
+
+    <footer class="border-top footer  text-muted">
+        <div class="text-center p-2 text-white my-footer" id="currentYear">
+
+        </div>
+
+    </footer>
+
+    <script>
+        let date = new Date();
+        document.getElementById('currentYear').innerHTML = "HSB , &copy: Copyright " + date.getFullYear();
+    </script>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

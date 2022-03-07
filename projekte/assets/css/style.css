@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151818;
+}
+
+.start {
+    height: 100vh;
+}
+
+@media (max-width: 575.98px) {
+    .start {
+        height: 25vh;
+    }
+}
+
+.image-content {
+    margin-top: 80px;
+}
+
+section {
+    margin-top: 10px;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.content {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.li1::marker {
+    color: #3caae9;
+    font-size: 2em;
+}
+
+.li2::marker {
+    color: #7ab03a;
+    font-size: 2em;
+}
+
+.li3::marker {
+    color: #e05c03;
+    font-size: 2em;
+}
+
+.li4::marker {
+    color: #383f45;
+    font-size: 2em;
+}
+
+.li5::marker {
+    color: #d12229;
+    font-size: 2em;
+}
+
+.li6::marker {
+    color: #033c73;
+    font-size: 2em;
+}
+
+.diagram,
+img {
+    float: left;
+}
+
+.hilfe-funktion {
+    width: 265px;
+}
+
+.footer {
+    background-color: #151818;
+}

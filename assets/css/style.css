@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../images/Visu.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container .lead {
+    color: #000000;
+    font-weight: 550;
+    text-shadow: 2px 2px #565e5885;
+    background-color: #fafafa33;
+}
+
+.txtAccueil {
+    background-image: url('../images/Visu.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imgProfileAcc {
+    width: 150px;
+    border-style: solid;
+}
+
+.titreCompetence {
+    margin: 120px 0 20px 0;
+}
+
+.nav-link {
+    font-weight: 800;
+}
+
+
+/* Contact */
+
+.titreContact {
+    padding: 40px 0 50px 0;
+    /* fusion */
+    margin-top: 100px;
+}
